@@ -15,3 +15,11 @@ CREATE TABLE Courses (
     CourseName VARCHAR(100) NOT NULL,
     DurationWeeks INT
 );
+
+CREATE TABLE Enrollments (
+    EnrollmentID INT PRIMARY KEY,
+    StudentID INT,
+    CourseID INT,
+    FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
+    FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
+);

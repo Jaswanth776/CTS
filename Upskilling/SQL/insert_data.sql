@@ -15,3 +15,10 @@ VALUES
 (2, 'JavaScript Fundamentals', 6),
 (3, 'C# Programming', 8),
 (4, 'SQL and Databases', 5);
+
+INSERT INTO Enrollments
+VALUES
+(1, 101, 1),
+(2, 101, 3),
+(3, 102, 2),
+(4, 103, 4);
