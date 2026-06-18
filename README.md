@@ -63,6 +63,17 @@ This section will be updated progressively as new topics are learned and impleme
 * Git
 * GitHub
 
+## Certifications
+
+| Certificate                         | Score   | Date      |
+| ----------------------------------- | ------- | --------- |
+| Data Structures and Algorithms Quiz | 100/100 | June 2026 |
+
+Certificate proofs and future learning achievements are maintained in the `Certificates` directory.
+
+* Data Structures and Algorithms Quiz (ProProfs Quiz Maker)
+
+
 ## Author
 
 **CH Jaswanth**
