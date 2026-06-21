@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Library Inclusion</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<h2>jQuery Demo</h2>
+
+<button id="btn">Click Me</button>
+
+<p id="msg"></p>
+
+<script>
+$(document).ready(function() {
+    $("#btn").click(function() {
+        $("#msg").text("jQuery Loaded Successfully!");
+    });
+});
+</script>
+
+</body>
+</html>

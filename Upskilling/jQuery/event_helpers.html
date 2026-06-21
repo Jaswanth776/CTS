@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Event Helpers</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<h2>jQuery Event Helper Demo</h2>
+
+<input type="text" id="name" placeholder="Type your name">
+
+<p id="output"></p>
+
+<script>
+$(document).ready(function() {
+
+    $("#name").keyup(function() {
+        $("#output").text("You typed: " + $(this).val());
+    });
+
+});
+</script>
+
+</body>
+</html>

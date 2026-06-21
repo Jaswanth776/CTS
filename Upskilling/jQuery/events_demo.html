@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Events Demo</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<h2>jQuery Events Demo</h2>
+
+<button id="clickBtn">Click Here</button>
+
+<p id="message"></p>
+
+<script>
+$(document).ready(function() {
+
+    $("#clickBtn").click(function() {
+        $("#message").text("Button Clicked!");
+    });
+
+});
+</script>
+
+</body>
+</html>
