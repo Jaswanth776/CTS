@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Closures Demo</title>
+</head>
+<body>
+
+    <h2>JavaScript Closures</h2>
+
+    <button onclick="counter()">Increment Counter</button>
+
+    <p id="output">Count: 0</p>
+
+    <script>
+        const counter = (function () {
+            let count = 0;
+
+            return function () {
+                count++;
+                document.getElementById("output").innerHTML =
+                    "Count: " + count;
+            };
+        })();
+    </script>
+
+</body>
+</html>
