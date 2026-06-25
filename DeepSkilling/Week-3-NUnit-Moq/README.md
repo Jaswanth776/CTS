@@ -72,3 +72,18 @@ Contains important concepts and revision notes.
 ## Module Status
 
 In Progress – Week-3 NUnit and Moq.
+
+## Progress
+
+Completed:
+
+- NUnit Examples
+- MailSenderMock
+
+In Progress:
+
+- FileSystemMock
+- DatabaseMock
+- CurrencyConverterMock
+- Exercises
+- Quiz Notes
