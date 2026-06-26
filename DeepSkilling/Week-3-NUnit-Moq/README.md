@@ -87,3 +87,14 @@ In Progress:
 - CurrencyConverterMock
 - Exercises
 - Quiz Notes
+
+
+## Next Steps
+
+The remaining tasks for this module include:
+
+- Complete FileSystemMock example
+- Complete DatabaseMock example
+- Complete CurrencyConverterMock example
+- Finish practical exercises
+- Add quiz revision notes
