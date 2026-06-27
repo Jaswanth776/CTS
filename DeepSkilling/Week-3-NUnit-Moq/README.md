@@ -98,3 +98,15 @@ The remaining tasks for this module include:
 - Complete CurrencyConverterMock example
 - Finish practical exercises
 - Add quiz revision notes
+
+
+
+## Prerequisites
+
+Before working on this module, ensure the following are installed:
+
+- .NET SDK
+- NUnit
+- Moq
+- Visual Studio or Visual Studio Code
+- Git
