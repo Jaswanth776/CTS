@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonsLib", "FourSeasonsLib\SeasonsLib.csproj", "{1A5CFF9D-E063-41C5-86D0-DD9998712A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonsLib.Tests", "SeasonsLib.Tests\SeasonsLib.Tests.csproj", "{416F031D-9BC9-4E74-9B7C-973A92D80B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A5CFF9D-E063-41C5-86D0-DD9998712A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5CFF9D-E063-41C5-86D0-DD9998712A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5CFF9D-E063-41C5-86D0-DD9998712A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5CFF9D-E063-41C5-86D0-DD9998712A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416F031D-9BC9-4E74-9B7C-973A92D80B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416F031D-9BC9-4E74-9B7C-973A92D80B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416F031D-9BC9-4E74-9B7C-973A92D80B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416F031D-9BC9-4E74-9B7C-973A92D80B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
