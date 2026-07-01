@@ -8,7 +8,7 @@ This directory contains the NUnit hands-on projects completed as part of the Cog
 |---------|--------|
 | CalcLibrary | ✅ Completed |
 | LeapYearCalculatorLib | ✅ Completed |
-| AccountsManagerLib | ⏳ Pending |
+| AccountsManagerLib | ✅ Completed |
 | CollectionsLib | ⏳ Pending |
 | FourSeasonsLib | ⏳ Pending |
 | UtilLib | ⏳ Pending |
