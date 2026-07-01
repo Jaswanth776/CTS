@@ -10,9 +10,9 @@ This directory contains the NUnit hands-on projects completed as part of the Cog
 | LeapYearCalculatorLib | ✅ Completed |
 | AccountsManagerLib | ✅ Completed |
 | CollectionsLib | ✅ Completed |
-| FourSeasonsLib | ⏳ Pending |
-| UtilLib | ⏳ Pending |
-| UserManagerLib | ⏳ Pending |
+| FourSeasonsLib | ✅ Completed |
+| UtilLib | ✅ Completed |
+| UserManagerLib | ✅ Completed |
 
 > Each project contains:
 >
