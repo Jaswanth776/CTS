@@ -13,7 +13,7 @@ The actual source code, solutions, and test projects are organized under the **N
 | Exercise 1 | Calculator Unit Tests | `../NUnit/CalculatorTests/` | ✅ Completed |
 | Exercise 2 | Leap Year Unit Tests | `../NUnit/LeapYearTests/` | ✅ Completed |
 | Exercise 3 | Account Manager Unit Tests | `../NUnit/AccountManagerTests/` | ✅ Completed |
-| Exercise 4 | Collection Unit Tests | `../NUnit/CollectionTests/` | ⏳ Pending |
+| Exercise 4 | Collection Unit Tests | `../NUnit/CollectionTests/` | ✅ Completed |
 | Exercise 5 | Exception Testing | `../NUnit/ExceptionTests/` | ⏳ Pending |
 | Exercise 6 | Parameterized Tests | `../NUnit/ParameterizedTests/` | ⏳ Pending |
 | Exercise 7 | TestCaseSource Tests | `../NUnit/TestCaseSourceTests/` | ⏳ Pending |
