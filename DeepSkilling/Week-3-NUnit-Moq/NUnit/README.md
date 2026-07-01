@@ -1,21 +1,43 @@
 # NUnit Hands-ons
 
-This directory contains the NUnit hands-on projects completed as part of the Cognizant DotNet FSE Deep Skilling program.
+This folder contains the NUnit hands-on programs completed during the Cognizant DotNet FSE Deep Skilling training.
 
-## Projects
+## Completed Projects
 
-| Project | Status |
-|---------|--------|
-| CalcLibrary | ✅ Completed |
-| LeapYearCalculatorLib | ✅ Completed |
-| AccountsManagerLib | ✅ Completed |
-| CollectionsLib | ✅ Completed |
-| FourSeasonsLib | ✅ Completed |
-| UtilLib | ✅ Completed |
-| UserManagerLib | ✅ Completed |
+- CalcLibrary
+- LeapYearCalculatorLib
+- AccountsManagerLib
+- CollectionsLib
+- FourSeasonsLib
+- UtilLib
+- UserManagerLib
 
-> Each project contains:
->
-> - Source Library
-> - NUnit Test Project
-> - Solution File
+## Additional Practice
+
+- ParameterizedTests
+
+## Folder Structure
+
+Each project includes:
+
+- Library project
+- NUnit test project
+- Solution file (.sln)
+
+## Topics Covered
+
+- Unit Testing
+- Assertions
+- Test Fixtures
+- Setup and TearDown
+- Exception Testing
+- Collection Testing
+- Parameterized Tests
+
+## Command Used
+
+```bash
+dotnet test
+```
+
+All projects were built successfully and the test cases passed.
