@@ -1,39 +1,91 @@
-# Exercises
+# Week 3 - NUnit and Moq Exercises
 
-This folder contains practical exercises completed during the NUnit and Moq module.
+This folder serves as the exercise tracker for the **Week 3 - NUnit and Moq** module of the Cognizant DotNet FSE Deep Skilling program.
 
-## Exercises
+The actual source code, solutions, and test projects are organized under the **NUnit** and **Moq** folders.
 
-### Exercise 1 - Calculator Unit Tests
-- Write unit tests for arithmetic operations.
-- Validate expected outputs using assertions.
+---
 
-### Exercise 2 - Parameterized Tests
-- Test multiple inputs using parameterized test cases.
+# NUnit Hands-ons
 
-### Exercise 3 - Exception Testing
-- Verify exceptions using Assert.Throws().
+| Exercise | Description | Solution Location | Status |
+|----------|-------------|-------------------|--------|
+| Exercise 1 | Calculator Unit Tests | `../NUnit/CalculatorTests/` | ✅ Completed |
+| Exercise 2 | Leap Year Unit Tests | `../NUnit/LeapYearTests/` | ✅ Completed |
+| Exercise 3 | Account Manager Unit Tests | `../NUnit/AccountManagerTests/` | ⏳ Pending |
+| Exercise 4 | Collection Unit Tests | `../NUnit/CollectionTests/` | ⏳ Pending |
+| Exercise 5 | Exception Testing | `../NUnit/ExceptionTests/` | ⏳ Pending |
+| Exercise 6 | Parameterized Tests | `../NUnit/ParameterizedTests/` | ⏳ Pending |
+| Exercise 7 | TestCaseSource Tests | `../NUnit/TestCaseSourceTests/` | ⏳ Pending |
+| Exercise 8 | URL Parser Tests | `../NUnit/UrlParserTests/` | ⏳ Pending |
 
-### Exercise 4 - Collection Testing
-- Validate collection contents and sizes.
+---
 
-### Exercise 5 - Mocking Email Service
-- Mock an email sender using Moq.
+# Moq Hands-ons
 
-### Exercise 6 - Mocking File System
-- Mock file reading operations.
+| Exercise | Description | Solution Location | Status |
+|----------|-------------|-------------------|--------|
+| Exercise 1 | Mock Email Service | `../Moq/MailSenderMock/` | ⏳ Pending |
+| Exercise 2 | Mock File System | `../Moq/FileSystemMock/` | ⏳ Pending |
+| Exercise 3 | Mock Database Repository | `../Moq/DatabaseMock/` | ⏳ Pending |
+| Exercise 4 | Mock Currency Service | `../Moq/CurrencyConverterMock/` | ⏳ Pending |
 
-### Exercise 7 - Mocking Database Repository
-- Mock repository methods and verify interactions.
+---
 
-### Exercise 8 - Mocking Currency Service
-- Mock exchange rate service and test currency conversion.
+# Learning Outcomes
 
-## Learning Outcomes
+After completing all exercises, the following concepts will be covered:
 
-- Write effective NUnit test cases.
-- Create parameterized and exception tests.
-- Use collection assertions.
-- Apply mocking using Moq.
-- Test business logic independently from external dependencies.
-- Improve software quality through automated testing.
+- Writing effective NUnit unit tests
+- Using setup and teardown methods
+- Writing parameterized test cases
+- Testing exception scenarios
+- Testing collections and return values
+- Using TestCaseSource attributes
+- Mocking external dependencies with Moq
+- Testing business logic independently
+- Improving application quality through automated unit testing
+
+---
+
+# Repository Structure
+
+```
+Week-3-NUnit-Moq
+│
+├── Exercises
+│   └── README.md
+│
+├── NUnit
+│   ├── CalculatorTests
+│   ├── LeapYearTests
+│   ├── AccountManagerTests
+│   ├── CollectionTests
+│   ├── ExceptionTests
+│   ├── ParameterizedTests
+│   ├── TestCaseSourceTests
+│   └── UrlParserTests
+│
+├── Moq
+│   ├── MailSenderMock
+│   ├── FileSystemMock
+│   ├── DatabaseMock
+│   └── CurrencyConverterMock
+│
+└── Quiz-Notes
+```
+
+---
+
+## Progress
+
+- Total NUnit Exercises : **8**
+- Total Moq Exercises : **4**
+- Overall Exercises : **12**
+
+Current Progress:
+
+- ✅ Completed : **2 / 12**
+- ⏳ Remaining : **10 / 12**
+
+This file is maintained as the progress tracker for the Week 3 NUnit and Moq hands-on exercises.
