@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerCommLib", "CustomerCommLib\CustomerCommLib.csproj", "{B77916A3-62F9-4B1F-9463-9B1840A6A033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerCommLib.Tests", "CustomerCommLib.Tests\CustomerCommLib.Tests.csproj", "{DE753699-2010-4256-A66E-720D736E7562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77916A3-62F9-4B1F-9463-9B1840A6A033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77916A3-62F9-4B1F-9463-9B1840A6A033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77916A3-62F9-4B1F-9463-9B1840A6A033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77916A3-62F9-4B1F-9463-9B1840A6A033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE753699-2010-4256-A66E-720D736E7562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE753699-2010-4256-A66E-720D736E7562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE753699-2010-4256-A66E-720D736E7562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE753699-2010-4256-A66E-720D736E7562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
