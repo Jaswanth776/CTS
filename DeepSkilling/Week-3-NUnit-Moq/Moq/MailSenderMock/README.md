@@ -1,28 +1,27 @@
-# Mail Sender Mock
+# MailSenderMock
 
-This exercise demonstrates mocking dependencies using the Moq framework.
+This example demonstrates how to mock an email service using **Moq**.
 
-## Topics Covered
+## Objective
 
-- Mock Objects
-- Dependency Injection
-- Method Verification
-- Unit Testing with Moq
+- Mock an email service dependency.
+- Configure the mocked method using `Setup()`.
+- Use `It.IsAny<T>()` for flexible argument matching.
+- Verify the mocked method invocation.
+- Test business logic without sending real emails.
 
 ## Files
 
-### IEmailService.cs
-Defines email sending functionality.
+- `NotificationService.cs` – Sends welcome emails using an email service.
+- `IEmailService.cs` – Email service interface.
+- `NotificationServiceTests.cs` – NUnit test using Moq.
 
-### NotificationService.cs
-Uses IEmailService to send notifications.
+## Concepts Covered
 
-### NotificationServiceTests.cs
-Mocks IEmailService and verifies method calls.
-
-## Learning Outcomes
-
-- Create mock objects using Moq.
-- Isolate dependencies during testing.
-- Verify interactions between objects.
-- Improve unit test reliability.
+- Dependency Injection
+- Mock Objects
+- Setup()
+- Returns()
+- Verify()
+- It.IsAny<T>()
+- NUnit Assertions

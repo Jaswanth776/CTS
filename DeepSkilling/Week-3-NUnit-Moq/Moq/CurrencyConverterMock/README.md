@@ -1,28 +1,25 @@
-# Currency Converter Mock
+# CurrencyConverterMock
 
-This exercise demonstrates mocking an external currency exchange service using the Moq framework.
+This example demonstrates how to use **Moq** to test a class that depends on an external currency service.
 
-## Topics Covered
+## Objective
 
-- Mock Objects
-- External Service Mocking
-- Dependency Injection
-- Unit Testing
+- Mock an external dependency using Moq.
+- Configure expected values with `Setup()`.
+- Verify interactions using `Verify()`.
+- Test the conversion logic without calling a real service.
 
 ## Files
 
-### ICurrencyService.cs
-Defines exchange rate retrieval methods.
+- `CurrencyConverter.cs` – Performs currency conversion.
+- `ICurrencyService.cs` – Interface representing the external service.
+- `CurrencyConverterTests.cs` – NUnit test using Moq.
 
-### CurrencyConverter.cs
-Converts currency using exchange rates from the service.
+## Concepts Covered
 
-### CurrencyConverterTests.cs
-Mocks the currency service and verifies conversion logic.
-
-## Learning Outcomes
-
-- Mock external APIs and services.
-- Test business logic independently.
-- Verify method calls using Moq.
-- Improve unit testing practices.
+- Dependency Injection
+- Mock Objects
+- Setup()
+- Returns()
+- Verify()
+- NUnit Assertions

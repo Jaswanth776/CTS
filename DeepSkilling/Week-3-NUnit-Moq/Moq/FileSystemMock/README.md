@@ -1,28 +1,25 @@
-# File System Mock
+# FileSystemMock
 
-This exercise demonstrates mocking file system operations using Moq.
+This example demonstrates how to mock file system operations using **Moq**.
 
-## Topics Covered
+## Objective
 
-- Mock Objects
-- File Access Abstraction
-- Dependency Injection
-- Unit Testing
+- Mock file reading operations.
+- Return predefined file contents.
+- Test file access logic without reading an actual file.
+- Verify interactions with the mocked dependency.
 
 ## Files
 
-### IFileSystem.cs
-Defines file reading operations.
+- `FileReader.cs` – Reads file content using an abstract file system.
+- `IFileSystem.cs` – File system interface.
+- `FileReaderTests.cs` – NUnit test using Moq.
 
-### FileReader.cs
-Uses IFileSystem to read file contents.
+## Concepts Covered
 
-### FileReaderTests.cs
-Mocks file access and verifies returned content.
-
-## Learning Outcomes
-
-- Mock file system dependencies.
-- Test file-related functionality safely.
-- Isolate external resources during testing.
-- Improve application testability.
+- Dependency Injection
+- Mock Objects
+- Setup()
+- Returns()
+- Verify()
+- NUnit Assertions

@@ -1,28 +1,26 @@
-# Database Mock
+# DatabaseMock
 
-This exercise demonstrates mocking database access using the Moq framework.
+This example demonstrates how to mock a repository using **Moq** while testing business logic.
 
-## Topics Covered
+## Objective
 
-- Repository Pattern
-- Mock Objects
-- Dependency Injection
-- Unit Testing
+- Mock a data repository.
+- Return predefined values using `Setup()`.
+- Verify repository interactions using `Verify()`.
+- Test the service without connecting to a real database.
 
 ## Files
 
-### IEmployeeRepository.cs
-Defines employee data access methods.
+- `EmployeeService.cs` – Service that retrieves employee information.
+- `IEmployeeRepository.cs` – Repository interface.
+- `EmployeeServiceTests.cs` – NUnit test using Moq.
 
-### EmployeeService.cs
-Uses the repository to retrieve employee information.
+## Concepts Covered
 
-### EmployeeServiceTests.cs
-Mocks the repository and verifies expected behavior.
-
-## Learning Outcomes
-
-- Mock database repositories.
-- Isolate business logic from data access.
-- Verify repository interactions.
-- Write reliable unit tests using Moq.
+- Dependency Injection
+- Repository Pattern
+- Mock Objects
+- Setup()
+- Returns()
+- Verify()
+- NUnit Assertions
