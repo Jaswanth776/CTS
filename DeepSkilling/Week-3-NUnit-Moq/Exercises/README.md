@@ -25,7 +25,7 @@ The actual source code, solutions, and test projects are organized under the **N
 
 | Exercise | Description | Solution Location | Status |
 |----------|-------------|-------------------|--------|
-| Exercise 1 | Mock Email Service | `../Moq/MailSenderMock/` | ⏳ Pending |
+| Exercise 1 | Mock Email Service | `../Moq/MailSenderMock/` | ✅ Completed |
 | Exercise 2 | Mock File System | `../Moq/FileSystemMock/` | ⏳ Pending |
 | Exercise 3 | Mock Database Repository | `../Moq/DatabaseMock/` | ⏳ Pending |
 | Exercise 4 | Mock Currency Service | `../Moq/CurrencyConverterMock/` | ⏳ Pending |
