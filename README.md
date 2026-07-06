@@ -78,5 +78,5 @@ Certificate proofs and future learning achievements are maintained in the `Certi
 
 **CH Jaswanth**
 
-Cybersecurity Student | Aspiring Software and Security Professional
+Cybersecurity Student | Aspiring Software and Security Professional | Vignan's university
 
