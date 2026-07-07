@@ -56,3 +56,34 @@ foreach (var product in products)
     Console.WriteLine($"Stock : {product.Stock}");
     Console.WriteLine();
 }
+
+Console.WriteLine("Updating Laptop...\n");
+
+var laptop = context.Products
+    .FirstOrDefault(p => p.Name == "Laptop");
+
+if (laptop != null)
+{
+    laptop.Price = 70000;
+    laptop.Stock = 15;
+
+    context.SaveChanges();
+
+    Console.WriteLine("Product updated successfully.\n");
+}
+
+Console.WriteLine("Products After Update");
+Console.WriteLine("---------------------");
+
+var updatedProducts = context.Products
+    .OrderBy(p => p.ProductId)
+    .ToList();
+
+foreach (var product in updatedProducts)
+{
+    Console.WriteLine($"ID    : {product.ProductId}");
+    Console.WriteLine($"Name  : {product.Name}");
+    Console.WriteLine($"Price : {product.Price}");
+    Console.WriteLine($"Stock : {product.Stock}");
+    Console.WriteLine();
+}
