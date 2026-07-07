@@ -87,3 +87,32 @@ foreach (var product in updatedProducts)
     Console.WriteLine($"Stock : {product.Stock}");
     Console.WriteLine();
 }
+
+Console.WriteLine("Deleting Mouse...\n");
+
+var mouse = context.Products
+    .FirstOrDefault(p => p.Name == "Mouse");
+
+if (mouse != null)
+{
+    context.Products.Remove(mouse);
+    context.SaveChanges();
+
+    Console.WriteLine("Product deleted successfully.\n");
+}
+
+Console.WriteLine("Products After Delete");
+Console.WriteLine("---------------------");
+
+var remainingProducts = context.Products
+    .OrderBy(p => p.ProductId)
+    .ToList();
+
+foreach (var product in remainingProducts)
+{
+    Console.WriteLine($"ID    : {product.ProductId}");
+    Console.WriteLine($"Name  : {product.Name}");
+    Console.WriteLine($"Price : {product.Price}");
+    Console.WriteLine($"Stock : {product.Stock}");
+    Console.WriteLine();
+}
