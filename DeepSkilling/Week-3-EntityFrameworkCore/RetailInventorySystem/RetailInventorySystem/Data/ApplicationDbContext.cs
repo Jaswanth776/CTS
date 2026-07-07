@@ -5,12 +5,18 @@ namespace RetailInventorySystem.Data;
 
 public class ApplicationDbContext : DbContext
 {
+    private readonly string _connectionString;
+
+    public ApplicationDbContext(string connectionString)
+    {
+        _connectionString = connectionString;
+    }
+
     public DbSet<Product> Products => Set<Product>();
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(
-            "Server=localhost,1433;Database=RetailInventoryDB;User Id=sa;Password=<YOUR_SQL_SERVER_PASSWORD>;TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer(_connectionString);
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
