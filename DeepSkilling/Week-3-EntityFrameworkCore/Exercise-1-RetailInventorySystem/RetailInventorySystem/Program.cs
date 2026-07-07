@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using RetailInventorySystem.Data;
 using RetailInventorySystem.Models;
@@ -15,23 +16,43 @@ connectionString = connectionString.Replace("{PASSWORD}", password);
 
 using var context = new ApplicationDbContext(connectionString);
 
-var product1 = new Product
+if (!context.Products.Any())
 {
-    Name = "Laptop",
-    Price = 65000,
-    Stock = 10
-};
+    context.Products.AddRange(
+        new Product
+        {
+            Name = "Laptop",
+            Price = 65000,
+            Stock = 10
+        },
+        new Product
+        {
+            Name = "Mouse",
+            Price = 750,
+            Stock = 50
+        });
 
-var product2 = new Product
+    context.SaveChanges();
+
+    Console.WriteLine("Products inserted successfully.\n");
+}
+else
 {
-    Name = "Mouse",
-    Price = 750,
-    Stock = 50
-};
+    Console.WriteLine("Products already exist.\n");
+}
 
-context.Products.Add(product1);
-context.Products.Add(product2);
+Console.WriteLine("Available Products");
+Console.WriteLine("------------------");
 
-context.SaveChanges();
+var products = context.Products
+    .OrderBy(p => p.ProductId)
+    .ToList();
 
-Console.WriteLine("Products inserted successfully.");
+foreach (var product in products)
+{
+    Console.WriteLine($"ID    : {product.ProductId}");
+    Console.WriteLine($"Name  : {product.Name}");
+    Console.WriteLine($"Price : {product.Price}");
+    Console.WriteLine($"Stock : {product.Stock}");
+    Console.WriteLine();
+}
