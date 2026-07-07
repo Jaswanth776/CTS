@@ -116,3 +116,44 @@ foreach (var product in remainingProducts)
     Console.WriteLine($"Stock : {product.Stock}");
     Console.WriteLine();
 }
+
+Console.WriteLine("LINQ Query Examples");
+Console.WriteLine("-------------------");
+
+Console.WriteLine($"\nTotal Products : {context.Products.Count()}");
+
+Console.WriteLine($"\nAny Products? : {context.Products.Any()}");
+
+var expensiveProducts = context.Products
+    .Where(p => p.Price > 1000)
+    .ToList();
+
+Console.WriteLine("\nProducts with Price > 1000");
+
+foreach (var product in expensiveProducts)
+{
+    Console.WriteLine($"{product.Name} - {product.Price}");
+}
+
+var firstProduct = context.Products.FirstOrDefault();
+
+if (firstProduct != null)
+{
+    Console.WriteLine($"\nFirst Product : {firstProduct.Name}");
+}
+
+var orderedProducts = context.Products
+    .OrderBy(p => p.Name)
+    .Select(p => new
+    {
+        p.Name,
+        p.Price
+    })
+    .ToList();
+
+Console.WriteLine("\nOrdered Products");
+
+foreach (var product in orderedProducts)
+{
+    Console.WriteLine($"{product.Name} - {product.Price}");
+}
