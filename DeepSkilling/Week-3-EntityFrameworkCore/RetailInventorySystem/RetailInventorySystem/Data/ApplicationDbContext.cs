@@ -10,6 +10,15 @@ public class ApplicationDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(
-            "Server=localhost;Database=RetailInventoryDB;Trusted_Connection=True;TrustServerCertificate=True");
+            "Server=localhost,1433;Database=RetailInventoryDB;User Id=sa;Password=<YOUR_SQL_SERVER_PASSWORD>;TrustServerCertificate=True");
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Product>()
+            .Property(p => p.Price)
+            .HasPrecision(18, 2);
+
+        base.OnModelCreating(modelBuilder);
     }
 }
