@@ -1,6 +1,6 @@
 # Week-4 ASP.NET Core Web API
 
-This module contains hands-on practice and examples related to ASP.NET Core Web API as part of the Cognizant Digital Nurture 5.0 (DN 5.0) DeepSkilling program.
+This module contains hands-on practice and examples related to ASP.NET Core Web API as part of the Cognizant Digital Nurture 5.0 (DN 5.0) DeepSkilling program
 
 ## Topics Covered
 
