@@ -4,7 +4,7 @@ using EmployeeWebAPI.Models;
 namespace EmployeeWebAPI.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/Emp")]
 public class EmployeeController : ControllerBase
 {
     private static readonly List<Employee> employees =

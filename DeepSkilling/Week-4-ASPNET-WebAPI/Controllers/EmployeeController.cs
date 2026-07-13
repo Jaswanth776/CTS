@@ -5,7 +5,7 @@ using WebAPIDemo.Models;
 namespace WebAPIDemo.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/Emp")]
     public class EmployeeController : ControllerBase
     {
         [HttpGet]
