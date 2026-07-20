@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
-using EmployeeWebAPI.Filters;
 using EmployeeWebAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EmployeeWebAPI.Controllers;
 
 [ApiController]
 [Route("api/Emp")]
-[CustomAuthFilter]
+[Authorize(Roles = "Admin")]
 public class EmployeeController : ControllerBase
 {
     private static readonly List<Employee> employees =
