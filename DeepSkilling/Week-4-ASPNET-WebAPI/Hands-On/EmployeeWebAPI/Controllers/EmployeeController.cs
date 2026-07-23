@@ -6,7 +6,7 @@ namespace EmployeeWebAPI.Controllers;
 
 [ApiController]
 [Route("api/Emp")]
-[Authorize(Roles = "Admin")]
+[Authorize(Roles = "Admin,POC")]
 public class EmployeeController : ControllerBase
 {
     private static readonly List<Employee> employees =
