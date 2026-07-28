@@ -1,0 +1,55 @@
+.App {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mystyle1,
+.st2,
+.v1 {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.mystyle1 {
+  background-color: #fff3cd;
+}
+
+.st2 {
+  background-color: #d1ecf1;
+}
+
+.v1 {
+  background-color: #d4edda;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+h3 {
+  margin: 10px 0 4px 0;
+  color: #555;
+}
+
+h4,
+p {
+  margin: 4px 0;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
