@@ -1,0 +1,3 @@
+user.name=CH Jaswanth
+user.email=chaluvadijaswanth2117@gmail.com
+core.editor=gedit --wait
